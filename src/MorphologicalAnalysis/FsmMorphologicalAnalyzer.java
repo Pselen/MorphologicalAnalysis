@@ -28,7 +28,6 @@ public class FsmMorphologicalAnalyzer {
      */
     public FsmMorphologicalAnalyzer() {
         this("turkish_finite_state_machine.xml", new TxtDictionary("Data/Dictionary/turkish_dictionary.txt", new TurkishWordComparator()), 100000);
-
     }
 
     /**
@@ -40,7 +39,6 @@ public class FsmMorphologicalAnalyzer {
     public FsmMorphologicalAnalyzer(int cacheSize) {
         this("turkish_finite_state_machine.xml", new TxtDictionary("Data/Dictionary/turkish_dictionary.txt", new TurkishWordComparator()), cacheSize);
     }
-
 
     /**
      * Another constructor of FsmMorphologicalAnalyzer class. It generates a new TxtDictionary type dictionary from
